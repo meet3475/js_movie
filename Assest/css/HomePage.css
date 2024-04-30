@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #18231F;
+}
+
+
+header {
+  width: 100%;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 12px;
+  display: flex;
+}
+
+#logo {
+  width: 250px;
+  height: 100px;
+  float: left;
+  margin: 10px 20px;
+  border: 3px solid #E771E7;
+  border-radius: 10px;
+}
+
+#logo img {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#logo img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s linear;
+  border-radius: 5px;
+  border:none;
+ 
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  float: right;
+}
+
+header nav ul {
+  text-align: right;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 40px 20px 10px;
+  display: inline-block;
+}
+
+header nav ul li a:hover {
+  color: #E771E7;
+  border-bottom: 5px solid #BA9525;
+}
+
+/* ************************************************************** */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#cinema .swiper-button-next, #cinema .swiper-button-prev {
+  top: 30px;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0px 8px 50px 0 rgba(0, 0, 0, 0.10);
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+#movie .swiper-button-next, #movie .swiper-button-prev {
+  top: 30px;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0px 8px 50px 0 rgba(0, 0, 0, 0.10);
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 25px!important;
+  color: #18231F;
+  font-weight: bold;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: blanchedalmond;
+  height: 18px;
+  width: 18px;
+
+}
+
+
+/* ************************************************************** */
+
+
+.cinemaCard {
+  width: 450px;
+  height: 600px;
+  margin: 30px;
+  border: 5px solid wheat;
+  border-radius: 10px;
+  background: white;
+}
+
+.cinemaCard:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s linear;
+}
+
+.cinemaCard img {
+  width: 100%;
+  height: 65%;
+  border-radius: 5px;
+}
+
+.cinemaCard p {
+  color: black;
+  font-weight: bold;
+  padding: 2px;
+  text-align: center;
+} 
+
+/* ************************************************************** */
+
+.movieCard {
+  width: 450px;
+  height: 600px;
+  margin: 30px;
+  border: 5px solid wheat;
+  border-radius: 10px;
+  background: white;
+}
+
+.movieCard:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s linear;
+}
+
+.movieCard img {
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 5px;
+}
+
+.movieCard p {
+  color:  black;
+  font-weight: bold;
+  padding: 2px;
+  text-align: center;
+}
+
+.line {
+  width: 100%;
+  border-top: 3px solid orangered;
+  margin-top: 45px;
+}
+
+.line h2 {
+  color: aqua;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+
+

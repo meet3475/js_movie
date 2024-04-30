@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="Assest/css/HomePage.css">
+    <link rel="stylesheet" href="Assest/css/slick.css">
+    <link rel="stylesheet" href="Assest/css/movie.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="Assest/imges/LOGO.jpg" alt="">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="HomePage.html">HOME | <i class="fa-solid fa-house"></i></a></li>
+                <li><a href="login.html">LOGIN | <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="resgistration.html">RESGISTRATION | <i class="fa-solid fa-file"></i></a></li>
+                <li><a href="movie.html">MOVIE | <i class="fa-solid fa-film"></i></a></li>
+                <li><a href="cinema.html">CINEMA | <i class="fa-solid fa-video"></i></a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="Assest/imges/movie/m1.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="Assest/imges/movie/m2.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="Assest/imges/movie/m3.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="Assest/imges/movie/m4.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="Assest/imges/movie/m5.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    <script src="Assest/js/movie.js"></script>
+
+</body>
+
+</html>
